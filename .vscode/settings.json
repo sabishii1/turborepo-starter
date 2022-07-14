@@ -1,0 +1,47 @@
+{
+  /* Terminal */
+  "terminal.integrated.profiles.linux": {
+    "turborepo-starter": {
+      "path": "/usr/bin/zsh",
+      "args": [".vscode/init.sh"]
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "turborepo-starter",
+
+  /* Window Color */
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#212452",
+    "titleBar.activeBackground": "#373372",
+    "titleBar.activeForeground": "#FDF8FC"
+  },
+
+  /* Typescript */
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  /* Hide Files */
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.gitignore": true,
+    // "**/.npmrc": true,
+
+    // Build
+    "**/.turbo": true,
+    "**/dist": true,
+    "**/build": true,
+
+    // Configs
+    ".editorconfig": true,
+    ".prettierrc": true,
+    ".prettierignore": true
+
+    // Firebase
+    // ".firebaserc": true,
+    // "firebase.*": true,
+    // "firestore.*": true,
+    // "database.*": true,
+    // "remoteconfig.template.json": true,
+    // "storage.rules": true
+    // ".gcloudignore": true
+    // "GOOGLE_APPLICATION_CREDENTIALS.json": true
+  }
+}
