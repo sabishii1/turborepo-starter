@@ -1,8 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "@app/meta/tsconfig/commonjs.json",
+  "extends": "@app/meta/tsconfig/cjs.json",
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist"
-  }
+  },
+  "exclude": ["node_modules", "dist", "jest.config.*"]
 }

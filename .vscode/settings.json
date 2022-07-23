@@ -1,13 +1,4 @@
 {
-  /* Terminal */
-  "terminal.integrated.profiles.linux": {
-    "turborepo-starter": {
-      "path": "/usr/bin/zsh",
-      "args": [".vscode/init.sh"]
-    }
-  },
-  "terminal.integrated.defaultProfile.linux": "turborepo-starter",
-
   /* Window Color */
   "workbench.colorCustomizations": {
     "activityBar.background": "#212452",
@@ -17,23 +8,23 @@
 
   /* Typescript */
   "typescript.tsdk": "node_modules/typescript/lib",
+  "javascript.preferences.importModuleSpecifierEnding": "js",
+  "typescript.preferences.importModuleSpecifierEnding": "js",
 
   /* Hide Files */
   "files.exclude": {
-    "**/node_modules": true,
-    "**/.gitignore": true,
+    // "**/node_modules": true,
+    // "**/.gitignore": true,
     // "**/.npmrc": true,
-
     // Build
-    "**/.turbo": true,
-    "**/dist": true,
-    "**/build": true,
-
+    // "**/.turbo": true,
+    // "**/.rollup.cache": true,
+    // "**/coverage": true,
+    // "**/dist": true,
     // Configs
-    ".editorconfig": true,
-    ".prettierrc": true,
-    ".prettierignore": true
-
+    // ".editorconfig": true,
+    // ".prettierrc": true,
+    // ".prettierignore": true
     // Firebase
     // ".firebaserc": true,
     // "firebase.*": true,

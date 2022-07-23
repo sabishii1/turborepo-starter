@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./node16-strictest.combined.json",
+  "extends": "./node16-strictest-esm.combined.json",
   "compilerOptions": {
     "sourceMap": true,
     "declaration": true,
@@ -9,6 +9,7 @@
     "emitDecoratorMetadata": true,
 
     "allowJs": true,
+    "resolveJsonModule": true,
     "incremental": true,
     "removeComments": false,
 
